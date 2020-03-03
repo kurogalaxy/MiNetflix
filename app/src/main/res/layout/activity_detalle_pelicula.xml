@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/colorFondo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetallePelicula">
+
+    <ImageView
+        android:id="@+id/detalle_image"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bonesheader"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="4"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/detalle_titulo"
+            android:layout_width="wrap_content"
+            android:paddingLeft="20dp"
+            android:textColor="@color/tituloGrande"
+            android:layout_height="wrap_content"
+            android:text="BONES"
+            android:textSize="26sp"
+            android:textAlignment="center"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="5dp"
+            android:background="@color/tituloPeque"
+            android:layout_height="2dp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/detalle_sinopsis"
+        android:layout_width="match_parent"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textColor="@color/colorResumen"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:text="Sinopsis Nico Nico Nii"/>
+
+    </LinearLayout>
+
+</LinearLayout>

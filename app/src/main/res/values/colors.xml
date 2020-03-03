@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="blanco">#FFF</color>
+    <color name="gray">#D3D4D4D4</color>
+    <color name="tituloPeque">#bfac46</color>
+    <color name="tituloGrande">#e3d80e</color>
+    <color name="colorFondo">#1d1d1d</color>
+    <color name="colorResumen">#c1c1c1</color>
+    <color name="botonInicio">#fed403</color>
+</resources>
